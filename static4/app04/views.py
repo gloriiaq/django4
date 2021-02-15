@@ -1,6 +1,5 @@
-from django.shortcuts import render
+from django.shortcuts import HttpResponseRedirect
 
 # Create your views here.
 def myhouse(request):
-    info = {"key": "value of dictionary"}
-    return render(request, 'anything.html',info)
+    return HttpResponseRedirect("/static/index.html")

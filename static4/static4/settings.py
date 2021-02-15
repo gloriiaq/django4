@@ -25,7 +25,7 @@ SECRET_KEY = '&*6ip36e&_e+u2z@nte_bddmz^6(3zi(-#4x4$dm-hd+4yhz5c'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['gloriiaq.pythonanywhere.com',]
+ALLOWED_HOSTS = ['gloriiaq.pythonanywhere.com', '127.0.0.1']
 
 
 # Application definition
